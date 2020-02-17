@@ -9,11 +9,13 @@
     display: grid;
     grid-template-columns: 150px auto;
     text-align: justify;
+    margin-left: 30%;
 }
 .phone{
     display: grid;
     grid-template-columns: 150px auto;
     text-align: justify;
+    margin-left: 30%;
 }
 
 .email img{

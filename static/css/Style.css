@@ -159,12 +159,12 @@ a {
 .Intro{
   text-align: justify;
   width: 450px;
-  margin:0;
+  margin-left:20%;
 }
 p{
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  font-size: large;
+  font-size: larger;
 }
 
 
@@ -193,7 +193,7 @@ p{
 #stats{
   font-family: 'Roboto', sans-serif;
   font-weight: bolder;
-  font-size: 17px;
+  font-size: 20px;
   letter-spacing: 0.1rem;
   text-align: justify;
 }
