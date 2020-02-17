@@ -1,0 +1,33 @@
+.container-2{
+    height: 500px;
+    width:90%;
+    display: grid;
+    padding: 10px;
+}
+
+.email{
+    display: grid;
+    grid-template-columns: 150px auto;
+    text-align: justify;
+}
+.phone{
+    display: grid;
+    grid-template-columns: 150px auto;
+    text-align: justify;
+}
+
+.email img{
+    height: 80px;
+}
+.phone img{
+    height: 80px;
+}
+
+
+.container-2 h2{
+    font-family: 'Roboto', sans-serif;
+}
+.box2 a{
+    font-family: 'Roboto';
+}
+

@@ -1,0 +1,7 @@
+django==1.9
+django-heroku
+django-extension==1.5.9
+dj-database-url=0.4.0
+whitenoise==2.0.6
+gunicorn==19.4.5
+fcntl

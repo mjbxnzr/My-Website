@@ -1,0 +1,66 @@
+{% load static %}
+<html>
+    <head>
+        
+        <link rel="stylesheet" type="text/css" href="{% static 'css/stylesheet.css'%}">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/Style.css'%}">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        
+    </head>
+    <body>
+          <!-- Hero -->
+  <section class="et-hero-tabs">
+    <h1>MUHAMMAD MUJIBUR RAHMAN</h1>
+    <h3>MOHAMMAD NIZAR</h3>
+    <div class="et-hero-tabs-container">
+      <a class="et-hero-tab" href="#tab-es6">About</a>
+      <a class="et-hero-tab" href="#tab-flexbox">Education</a>
+      <a class="et-hero-tab" href="#tab-react">Portfolio</a>
+      <a class="et-hero-tab" href="#tab-angular">Contact</a>
+      <span class="et-hero-tab-slider"></span>
+    </div>
+  </section>
+  <!-- Main -->
+  <main class="et-main">
+    <section class="et-slide" id="tab-es6">
+      <div class="container">
+        <div class="Intro" id="about">
+          <h1> [[title]]</h1>
+          <h3>[[content]]</h3>
+          <p>[[content2]]</p>
+        </div>
+        <div v-html="profile_pic">
+          <Pic_prof id="app"></Pic_prof>
+          <stats id="stats"></stats>
+        </div>
+      </div>
+    </section>
+    <section class="et-slide" id="tab-flexbox">
+      <div>
+       {% include 'Education.html'%}
+      </div>
+    </section>
+    <section class="et-slide" id="tab-react">
+      <div class="container-portfolio">
+        {% include 'Portfolio.html'%}
+      </div>
+    </section>
+    <section class="et-slide" id="tab-angular">
+        {% include 'Contact.html'%}
+    </section>
+    <section class="et-slide" id="tab-other">
+      <h1>THANK YOU</h1>
+      <h3>for scrolling down</h3>
+    </section>
+  </main>
+  
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  
+  <script src="{% static 'javascript/main.js'%}"></script>
+  <script src="{% static 'javascript/Vue.js'%}"></script>
+  {% block javascript %}{% endblock %}
+
+    </body>
+    
+</html>
