@@ -21,12 +21,28 @@ Vue.component('Pic_prof',{
 })
 
 Vue.component('stats',{
-    template:`<h3>
-    Age: 23 years old
-    <br>DOB: 16 December 1997
-    <br>Hobby: Go to the gym but.. <br>haven't step into the gym <br>for a while now ^_^
-    <br>Location: Kuala Lumpur
-    </h3>`
+    template:`
+    <div class="Status">
+        <div class="age">
+            <div class="one_third">
+                <strong>Age</strong>
+                <span>23</span> 
+            </div>
+        </div>
+        <div class="location">
+            <div class="one_third">
+                <strong>Location</strong>
+                <span>Kuala Lumpur</span>
+            </div>
+        </div>
+        <div class="DOB">
+            <div class="no_border">
+            <strong>D.O.B.</strong>
+            <span>16/12/97</span>
+            </div> 
+        </div>
+    </div>
+    `
 })
 
 new Vue({
