@@ -17,6 +17,22 @@
     text-align: justify;
     margin-left: 30%;
 }
+@media only screen and (max-device-width: 500px) {
+
+    .email{
+        display: grid;
+        grid-template-columns: 150px auto;
+        text-align: justify;
+        margin-left: 10%;
+    }
+    .phone{
+        display: grid;
+        grid-template-columns: 150px auto;
+        text-align: justify;
+        margin-left: 10%;
+    }
+
+}
 
 .email img{
     height: 80px;
