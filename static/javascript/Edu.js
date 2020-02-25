@@ -37,7 +37,7 @@
 new Vue({
   el:'#highschool',
   data:{
-    date:"2011-2016",
+    date:"2010-2015",
     school:"S.M.K. Sultan Abdul Samad",
     location:"Klang, Selangor"
   },
