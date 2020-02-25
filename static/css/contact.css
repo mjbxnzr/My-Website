@@ -31,6 +31,12 @@
         text-align: justify;
         margin-left: 10%;
     }
+    .container-2{
+        height: 80%;
+        width:90%;
+        display: grid;
+        padding: 10px;
+    }
 
 }
 
